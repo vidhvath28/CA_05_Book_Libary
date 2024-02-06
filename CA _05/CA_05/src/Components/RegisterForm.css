@@ -1,0 +1,80 @@
+/* RegisterForm.css */
+
+#register-form-container {
+  font-family: 'Arial', sans-serif;
+  background-color: #e9edc9;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.register-form {
+  background-color: #ccd5ae;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items horizontally */
+}
+
+.register-form h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px; /* Add some margin at the bottom */
+}
+
+.register-form form {
+  display: flex;
+  flex-direction: column;
+  width: 100%; /* Make form width 100% */
+}
+
+.register-form label {
+  margin: 10px 0;
+  font-size: 16px;
+  width: 100%; /* Make labels take full width */
+}
+
+.register-form input,
+.register-form button {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccd5ae;
+  border-radius: 5px;
+  margin-top: 5px;
+  width: calc(100% - 22px); /* Adjust width to account for padding */
+}
+
+.register-form span {
+  color: red;
+  font-size: 14px;
+  width: 100%; /* Make spans take full width */
+}
+
+.register-form button {
+  background-color: #e9edc9;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  border: none;
+  margin-top: 10px;
+  width: 100%; /* Make button take full width */
+}
+
+.register-form button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+@media (max-width: 500px) {
+  .register-form {
+      width: 100%;
+      box-shadow: none;
+  }
+}

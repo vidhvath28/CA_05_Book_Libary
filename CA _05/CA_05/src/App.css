@@ -1,0 +1,23 @@
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #588157;
+  }
+  
+  .left {
+    flex-grow: 1;
+  }
+  
+  .right {
+    border: 2px solid blue;
+    padding: 5px 10px;
+  }
+  
+  .register-link {
+    text-decoration: none;
+    color: black; /* You can change the color as per your design */
+  }
+

@@ -1,0 +1,18 @@
+/* SearchBar styling */
+
+.search-bar-container {
+    /* background-image: url('https://www.incimages.com/uploaded_files/image/1920x1080/GettyImages-900301626_437925.jpg'); */
+    background-color:#ccd5ae;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vh; /* Adjust the height as needed */
+    color: rgb(65, 39, 183);
+  }
+  
+  .search-bar {
+    text-align: center;
+  }
+  
+  /* Optional: Add additional styling based on your design preferences */
+  

@@ -1,0 +1,54 @@
+/* BookList styling */
+.book-list {
+  display: flex;
+  gap: 20px;
+  background-color: #ccd5ae; /* Background color for the book list */
+  padding: 15px;
+  border-radius: 10px;
+  overflow-x: auto; /* Enable horizontal scrolling if needed */
+}
+
+.book-item {
+  width: 200px;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  margin-right: 20px;
+  margin-left: 20px;
+  width: 200px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Animation */
+@keyframes scaleFadeIn {
+  0% {
+      opacity: 0;
+      transform: scale(0.9);
+  }
+  100% {
+      opacity: 1;
+      transform: scale(1);
+  }
+}
+
+.book-item:hover {
+  animation: scaleFadeIn 0.3s ease forwards;
+}
+
+.book-item img {
+  height: 200px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.book-title {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.book-authors {
+  font-size: 14px;
+  color: #777;
+}
